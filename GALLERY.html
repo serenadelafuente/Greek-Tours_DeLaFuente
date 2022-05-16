@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/styles.css" />
+  <title>Gallery</title>
+</head>
+
+<body>
+  <header class="GALLERY">
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">HOME</a>
+        </li>
+        <li>
+          <a href="TRIPS.html">TRIPS</a>
+        </li>
+        <li>
+          <a href="CAR-RENTALS.html">CAR RENTALS</a>
+        </li>
+        <li class="active-page">
+          <a href="GALLERY.html">GALLERY</a>
+        </li>
+        <li>
+          <a href="VIDEOS.html">VIDEOS</a>
+        </li>
+        <li>
+          <a href="THE-GREEK-ISLANDS.html">THE GREEK ISLANDS</a>
+        </li>
+        </li>
+      </ul>
+      <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+          <a href="TRIPS.html">TRIPS</a>
+          <a href="CAR-RENTALS.html">CAR RENTALS</a>
+          <a class="active-menu-item" href="GALLERY.html">GALLERY</a>
+          <a href="VIDEOS.html">VIDEOS</a>
+          <a href="THE-GREEK-ISLANDS.html">THE GREEK ISLANDS</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <article>
+      <!-- 1. Ref. link using lightbox: https://lokeshdhakar.com/projects/lightbox2/ --
+          -- 2. show students how to read instructions and use plugin --
+          -- 3. provide students with lightbox.min.css, lightbox.min.js and lightbox-plus-jquery.min.js --
+          -- 4. need to close.png, loading.gif, next.png and prev.png assets/image folder to use -->
+      <link rel="stylesheet" type="text/css" href="./assets/stylesheets/lightbox.min.css" />
+    </head>
+   
+    <body>
+      <article>
+        <div>
+          <h1>Gallery</h1> 
+          <div style="display: flex; justify-content: center; align-items: center;"><h2>Santorini</h2></div>
+   
+          <article>
+          <a href="./assets/images/santorini-02.jpg" data-lightbox="Santorini" data-title="Santorini-1-02">
+            <img src="./assets/images/santorini-02.jpg" alt="Santorini-1-02"
+              style="width: 300px;" />
+          </a>
+          <a href="./assets/images/santorini-03.jpg" data-lightbox="Santorini" data-title="Santorini-03">
+            <img src="./assets/images/santorini-03.jpg" alt="Santorini-03" style="width: 300px;" />
+          </a>
+          <a href="./assets/images/santorini-04.jpg" data-lightbox="Santorini" data-title="Santorini-04">
+            <img src="./assets/images/santorini-04.jpg" alt="Santorini-04"
+              style="width: 300px;" />
+          </a>
+          <a href="./assets/images/santorini-05.jpg" data-lightbox="Santorini" data-title="Santorini-05">
+            <img src="./assets/images/santorini-05.jpg" alt="Santorini-05"
+              style="width: 300px;" />
+          </a>
+        </article>
+        </div>
+        <div>
+          <div style="display: flex; justify-content: center; align-items: center;"><h2>Athens</h2></div>
+          <a href="./assets/images/Athens-01.jpg" data-lightbox="Athens" data-title="Athens-01">
+            <img src="./assets/images/Athens-01.jpg" alt="Athens-01" style="width: 300px;" />
+          </a>
+          <a href="./assets/images/Athens-02.jpg" data-lightbox="Athens" data-title="Athens-02">
+            <img src="./assets/images/Athens-02.jpg" alt="Athens-02"
+              style="width: 300px;" />
+          </a>
+          <a href="./assets/images/Athens-03.jpg" data-lightbox="Athens" data-title="Athens-03">
+            <img src="./assets/images/Athens-03.jpg" alt="Athens-03" style="width: 300px;" />
+          </a>
+          <a href="./assets/images/Athens-04.jpg" data-lightbox="Athens" data-title="Athens-04">
+            <img src="./assets/images/Athens-04.jpg" alt="Athens-04"
+              style="width: 300px;" />
+              <p>
+              </p>
+          </a>
+        </article>
+        </div>
+      <!-- loading jquery first, then lightbox -- 
+        <script
+          type="text/JavaScript"
+          src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        ></script>
+        <script
+          type="text/JavaScript"
+          src="assets/javascripts/lightbox.min.js"
+        ></script> 
+        -- loading jquery first, then lightbox -->
+    
+      <!-- OR using lightbox combin with jquery script -->
+      <script type="text/JavaScript" src="./assets/javascripts/lightbox-plus-jquery.min.js"></script>
+    </body>
+</body>
+
+</html>
